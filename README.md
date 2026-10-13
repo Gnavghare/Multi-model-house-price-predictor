@@ -12,20 +12,20 @@
 
 ## 📌 Overview
 
-**USA Housing Price Predictor** is an end-to-end Machine Learning project that predicts house prices in the United States using the classic **USA Housing** dataset.  
+**USA Housing Price Predictor** is an end-to-end Machine Learning project that predicts house prices in the United States using the classic **USA Housing** dataset.
 
 The project trains and compares **11 different regression models** and provides a beautiful, interactive **Streamlit web application** for real-time price prediction, model comparison, and data exploration.
 
 ### ✨ Key Highlights
 
-| Feature | Description |
-|---------|-------------|
-| 🧠 **11 ML Models** | Linear, Ridge, Lasso, ElasticNet, Polynomial, Random Forest, XGBoost, KNN, SVM, ANN, Huber |
-| 🎯 **Best R² Score** | **0.9146** (Linear / Ridge / Lasso Regression) |
-| 💻 **Interactive UI** | Modern dark-themed Streamlit dashboard with animations |
-| 📊 **Model Comparison** | Side-by-side performance metrics + interactive charts |
-| 📈 **Data Insights** | Price distribution, feature relationships, statistics |
-| 🔒 **100% Local** | Runs completely offline — no data leaves your machine |
+| Feature                      | Description                                                                                |
+| ---------------------------- | ------------------------------------------------------------------------------------------ |
+| 🧠**11 ML Models**     | Linear, Ridge, Lasso, ElasticNet, Polynomial, Random Forest, XGBoost, KNN, SVM, ANN, Huber |
+| 🎯**Best R² Score**   | **0.9146** (Linear / Ridge / Lasso Regression)                                       |
+| 💻**Interactive UI**   | Modern dark-themed Streamlit dashboard with animations                                     |
+| 📊**Model Comparison** | Side-by-side performance metrics + interactive charts                                      |
+| 📈**Data Insights**    | Price distribution, feature relationships, statistics                                      |
+| 🔒**100% Local**       | Runs completely offline — no data leaves your machine                                     |
 
 ---
 
@@ -79,35 +79,35 @@ usa-housing-price-predictor/
 
 ## 📊 Dataset Information
 
-**Dataset:** USA Housing  
-**Records:** 5,000  
+**Dataset:** USA Housing
+**Records:** 5,000
 **Target Variable:** `Price`
 
-| Feature | Description |
-|---------|-------------|
-| `Avg. Area Income` | Average income of residents in the area |
-| `Avg. Area House Age` | Average age of houses in the area |
-| `Avg. Area Number of Rooms` | Average number of rooms |
-| `Avg. Area Number of Bedrooms` | Average number of bedrooms |
-| `Area Population` | Population of the area |
+| Feature                          | Description                             |
+| -------------------------------- | --------------------------------------- |
+| `Avg. Area Income`             | Average income of residents in the area |
+| `Avg. Area House Age`          | Average age of houses in the area       |
+| `Avg. Area Number of Rooms`    | Average number of rooms                 |
+| `Avg. Area Number of Bedrooms` | Average number of bedrooms              |
+| `Area Population`              | Population of the area                  |
 
 ---
 
 ## 🏆 Model Performance
 
-| Rank | Model | R² Score | MAE | Remarks |
-|------|-------|----------|-----|---------|
-| 🥇 | **Lasso Regression** | **0.9146** | $82,658 | Best overall |
-| 🥈 | **Linear Regression** | **0.9146** | $82,658 | Extremely close |
-| 🥉 | **Ridge Regression** | **0.9146** | $82,660 | Excellent |
-| 4 | ElasticNet | 0.8780 | $99,127 | Good |
-| 5 | Random Forest | 0.8774 | $98,918 | Strong ensemble |
-| 6 | XGBoost | 0.8710 | $102,161 | Competitive |
-| 7 | Polynomial (deg=4) | 0.8710 | $97,863 | Non-linear |
-| 8 | KNN | 0.5114 | $198,086 | Moderate |
-| 9 | ANN (MLP) | 0.5023 | $199,269 | Needs tuning |
-| 10 | Huber (Robust) | 0.5011 | $199,466 | Robust to outliers |
-| 11 | SVM | 0.0004 | $282,948 | Poor fit |
+| Rank | Model                       | R² Score        | MAE      | Remarks            |
+| ---- | --------------------------- | ---------------- | -------- | ------------------ |
+| 🥇   | **Lasso Regression**  | **0.9146** | $82,658  | Best overall       |
+| 🥈   | **Linear Regression** | **0.9146** | $82,658  | Extremely close    |
+| 🥉   | **Ridge Regression**  | **0.9146** | $82,660  | Excellent          |
+| 4    | ElasticNet                  | 0.8780           | $99,127  | Good               |
+| 5    | Random Forest               | 0.8774           | $98,918  | Strong ensemble    |
+| 6    | XGBoost                     | 0.8710           | $102,161 | Competitive        |
+| 7    | Polynomial (deg=4)          | 0.8710           | $97,863  | Non-linear         |
+| 8    | KNN                         | 0.5114           | $198,086 | Moderate           |
+| 9    | ANN (MLP)                   | 0.5023           | $199,269 | Needs tuning       |
+| 10   | Huber (Robust)              | 0.5011           | $199,466 | Robust to outliers |
+| 11   | SVM                         | 0.0004           | $282,948 | Poor fit           |
 
 > **Insight:** On this dataset, simple linear models outperform complex tree-based and neural network models.
 
@@ -141,6 +141,7 @@ pip install -r requirements.txt
 ```
 
 **requirements.txt**
+
 ```text
 streamlit>=1.28.0
 pandas>=1.5.0
@@ -190,8 +191,8 @@ streamlit run app.py
 
 > Add your screenshots here after running the app
 
-| Prediction Tab | Model Comparison | Data Insights |
-|----------------|------------------|---------------|
+| Prediction Tab                            | Model Comparison                          | Data Insights                         |
+| ----------------------------------------- | ----------------------------------------- | ------------------------------------- |
 | ![Prediction](screenshots/prediction.png) | ![Comparison](screenshots/comparison.png) | ![Insights](screenshots/insights.png) |
 
 ---
@@ -236,15 +237,9 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ## 👨‍💻 Author
 
-**Gaurav**  
+**Gaurav**
 Machine Learning Project – Housing Price Prediction
 
 ---
 
 <div align="center">
-
-**⭐ If you found this project useful, please give it a star!**
-
-`usa-housing-price-predictor`
-
-</div>
