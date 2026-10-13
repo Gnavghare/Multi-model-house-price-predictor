@@ -25,7 +25,7 @@ The project trains and compares **11 different regression models** and provides 
 | 💻**Interactive UI**   | Modern dark-themed Streamlit dashboard with animations                                     |
 | 📊**Model Comparison** | Side-by-side performance metrics + interactive charts                                      |
 | 📈**Data Insights**    | Price distribution, feature relationships, statistics                                      |
-| 🔒**100% Local**       | Runs completely offline — no data leaves your machine                                     |
+| 🔒**100% Online **       | Runs completely Online — no data leaves your machine                                     |
 
 ---
 
@@ -97,9 +97,9 @@ usa-housing-price-predictor/
 
 | Rank | Model                       | R² Score        | MAE      | Remarks            |
 | ---- | --------------------------- | ---------------- | -------- | ------------------ |
-| 🥇   | **Lasso Regression**  | **0.9146** | $82,658  | Best overall       |
-| 🥈   | **Linear Regression** | **0.9146** | $82,658  | Extremely close    |
-| 🥉   | **Ridge Regression**  | **0.9146** | $82,660  | Excellent          |
+| 🥇   | **Lasso Regression**        | **0.9146**      | $82,658  | Best overall       |
+| 🥈   | **Linear Regression**       | **0.9146**       | $82,658  | Extremely close    |
+| 🥉   | **Ridge Regression**        | **0.9146**       | $82,660  | Excellent          |
 | 4    | ElasticNet                  | 0.8780           | $99,127  | Good               |
 | 5    | Random Forest               | 0.8774           | $98,918  | Strong ensemble    |
 | 6    | XGBoost                     | 0.8710           | $102,161 | Competitive        |
@@ -226,12 +226,6 @@ Contributions, issues, and feature requests are welcome!
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
