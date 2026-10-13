@@ -35,7 +35,7 @@ The project trains and compares **11 different regression models** and provides 
 streamlit run app.py
 ```
 
-> Open your browser at `http://localhost:8501`
+> Open your browser at "https://multi-model-house-price-predictor-3zjzg9bifgbtm92pf8zslf.streamlit.app/"
 
 ---
 
@@ -237,7 +237,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ## 👨‍💻 Author
 
-**Gaurav**
+**Gaurav Navghare **
 Machine Learning Project – Housing Price Prediction
 
 ---
